@@ -134,16 +134,22 @@ a:hover{ text-decoration:none; color:#8a9a8e;}
 .bannerTxt{position:absolute;left:0px;right:0px;top:35%; transform:translateY(-35%); z-index:222}
 .bannerTxt h1{font-size:60px; font-weight:bold;margin:0px;line-height:45px;}
 .bannerTxt h1 small{font-size:24px;}
-.bgLight{background:#f2f2f2;}
+.mapBg{background:url(../images/mapBg.jpg) center center no-repeat;}
 
 .topCol {border-right:2px dashed #ebe7e7; padding:5px 10px 0; height:100%;}
-.serviceBox{color:#FFF; background-size: cover; background-position: 50%; padding:30px 0px; cursor: pointer; min-height: 450px; text-align: center; position: relative;}
-.serviceTitle{background-image:linear-gradient(130deg, rgba(11,116, 174,0.7) 84%, rgba(255,255,255,0) 85%); padding:8px 40px 8px 15px;}
-.serviceDetatils{font-size:16px; padding:20px; color:#fff; position:absolute; bottom:0; left:0; z-index:3; text-align:left;}
+.serviceBox{color:#FFF; background-size: cover; background-position: 50%; padding:30px 0px; cursor: pointer; min-height:400px; text-align: center; position: relative; overflow:hidden;}
+.serviceTitle{background-image:linear-gradient(130deg, rgba(11,116, 174,0.8) 79%, rgba(255,255,255,0) 80%); padding:8px 50px 8px 10px; font-size:18px; line-height:24px; text-align:left;}
+.serviceDetatils{font-size:13px; padding:20px; color:#fff; position:absolute; bottom:0; left:0; z-index:3; text-align:left;}
 .serviceBox:before{content:'';position:absolute; top:0px; bottom:0; left:0; right:0px; background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,0.75) 100%); display:none;}
-.serviceDetatils div{display:block; opacity:0; position:relative; top:100px; transition-property:top, opacity; transition-duration: 0.3s; transition-delay: 0s; }
+.serviceDetatils div{opacity:0; position:relative; top:100px; transition-property:top, opacity; transition-duration: 0.3s; transition-delay: 0s;}
 .serviceBox:hover .serviceDetatils div {transition-delay: 0.15s; opacity:1; top:0px;}
 .serviceBox:hover:before{display:block;}
+
+.dotList li{position:relative; list-style-type:none; padding:0px 0 0 15px;}
+.dotList li:after{content:''; width:5px;height:5px;border-radius:100%;background:#0b74ae;display:inline-block; position:absolute;left:0px;top:10px;}
+
+.formNew{background:rgba(0,0,0,0.2); padding:15px 30px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,.2); color:#FFF;}
+
 
 @media (min-width:1300px) {
 .container{max-width:1280px;}
