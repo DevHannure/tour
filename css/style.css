@@ -48,7 +48,7 @@ a:hover{ text-decoration:none; color:#8a9a8e;}
 .cusnav{padding-top:0px;padding-bottom:0px; position:fixed; width:100%; z-index:999}
 .darkHeader{background:#0b74ae;}
 .cusnav .container{z-index: 222; position:relative}
-.cusnav .nav-link{color:#e1e1e1;margin-right:0.5rem; margin-left:0.5rem; text-transform:uppercase; font-size:15px;}
+.cusnav .nav-link{color:#e1e1e1;margin-right:0.2rem; margin-left:0.2rem; text-transform:uppercase; font-size:15px;}
 .cusnav .nav-link:hover, .cusnav .show .nav-link, .cusnav .nav-link.active{color:#FFF;}
 .cusnav .navbar-collapse{align-items:flex-start;}
 
@@ -137,7 +137,7 @@ a:hover{ text-decoration:none; color:#8a9a8e;}
 .mapBg{background:url(../images/mapBg.jpg) center center no-repeat;}
 
 .topCol {border-right:2px dashed #ebe7e7; padding:5px 10px 0; height:100%;}
-.serviceBox{color:#FFF; background-size: cover; background-position: 50%; padding:30px 0px; cursor: pointer; min-height:400px; text-align: center; position: relative; overflow:hidden;}
+.serviceBox{color:#FFF; background-size: cover; background-position: 50%; padding:12px 0px; cursor: pointer; min-height:400px; text-align: center; position: relative; overflow:hidden;}
 .serviceTitle{background-image:linear-gradient(130deg, rgba(11,116, 174,0.8) 79%, rgba(255,255,255,0) 80%); padding:8px 50px 8px 10px; font-size:18px; line-height:24px; text-align:left;}
 .serviceDetatils{font-size:13px; padding:20px; color:#fff; position:absolute; bottom:0; left:0; z-index:3; text-align:left;}
 .serviceBox:before{content:'';position:absolute; top:0px; bottom:0; left:0; right:0px; background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,0.75) 100%); display:none;}
@@ -149,6 +149,7 @@ a:hover{ text-decoration:none; color:#8a9a8e;}
 .dotList li:after{content:''; width:5px;height:5px;border-radius:100%;background:#0b74ae;display:inline-block; position:absolute;left:0px;top:10px;}
 
 .formNew{background:rgba(0,0,0,0.2); padding:15px 30px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,.2); color:#FFF;}
+.cusCard:hover{box-shadow:2px 5px 12px 5px rgba(0,0,0,0.03);}
 
 
 @media (min-width:1300px) {
